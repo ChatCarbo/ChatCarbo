@@ -14,7 +14,7 @@ Every repository on this account follows a structured, iterative delivery proces
 #### **Technical Scope & Environment**
 * **Core Languages:** Rust (Cargo), Python
 * **Development Environment:** Minimalist, direct-control workflow on Windows (Notepad++, PowerShell, Git)
-* **Key Domains:** Troubleshooting and technical investigation tools, Windows system utilities, file & archive management, memory optimization, data/log parsing, and process automation.
+* **Key Domains:** Troubleshooting and technical investigation tools, Windows system utilities, file & archive management, memory optimization, data/log parsing, and process automation...
 
 ---
 
@@ -34,4 +34,4 @@ Chaque dépôt publié sur ce compte repose sur un processus structuré et itér
 #### **Périmètre technique & Environnement**
 * **Langages principaux :** Rust (Cargo), Python
 * **Environnement de travail :** Approche minimaliste et maîtrise directe sous Windows (Notepad++, PowerShell, Git)
-* **Domaines d'application :** Outils de recherche de pannes et d'investigation technique, utilitaires système Windows, traitement d'archives et de fichiers, optimisation mémoire, analyse de logs et automatisation.
+* **Domaines d'application :** Outils de recherche de pannes et d'investigation technique, utilitaires système Windows, traitement d'archives et de fichiers, optimisation mémoire, analyse de logs et automatisation...
