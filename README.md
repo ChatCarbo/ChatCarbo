@@ -1,37 +1,47 @@
-### **Study Manager | AI-Driven Project Management & Software Prototyping**
+### Responsable d'études · Outils Windows en Rust & Python, pilotés par l'IA
 
-Working as a **Study Manager** in the industrial sector, I regularly lead projects alongside my core responsibilities. With a self-taught background in computer science, I leverage **Artificial Intelligence** both professionally to optimize and develop tools for troubleshooting and technical investigations and personally, as an execution lever to apply rigorous project management methodologies to software creation.
+Je travaille dans l'industrie, sur des études techniques et de la recherche de pannes. Je suis autodidacte en informatique. Sur ce compte, je publie des utilitaires Windows que je conçois et que je teste moi-même ; **le code est écrit par des modèles d'IA sous ma direction**.
 
-My objective: **design, specify, test, and deliver a few functional utilities each month** in **Rust** and **Python** (such as system tools, archive managers, and automation scripts), demonstrating my ability to drive a technical project from initial concept to final release.
+Mon rôle sur chaque projet : définir le besoin, écrire la spécification, relire et orienter le code produit, tester sous Windows, puis corriger et publier.
 
-#### **Project Management Methodology (End-to-End Cycle)**
-Every repository on this account follows a structured, iterative delivery process:
-1. **Scoping & Functional Specifications:** Translating concrete operational or daily needs into structured technical requirements and clear prompts.
-2. **Architecture & AI Orchestration:** Supervising AI models to generate modular code—combining **Rust** for system-level performance and safety with **Python** for rapid scripting, log parsing, and diagnostic tooling.
-3. **Quality Assurance & Testing:** Personally conducting hands-on testing in a Windows environment, evaluating edge cases, and analyzing execution logs.
-4. **Iterative Debugging & Delivery:** Diagnosing anomalies, directing AI-assisted refactoring, and publishing documented releases on GitHub.
+#### Projets
 
-#### **Technical Scope & Environment**
-* **Core Languages:** Rust (Cargo), Python
-* **Development Environment:** Minimalist, direct-control workflow on Windows (Notepad++, PowerShell, Git)
-* **Key Domains:** Troubleshooting and technical investigation tools, Windows system utilities, file & archive management, memory optimization, data/log parsing, and process automation...
+| Projet | Ce qu'il fait | Statut |
+|---|---|---|
+| [**Kip**](https://github.com/ChatCarbo/Kip) | Gestionnaire de mots de passe local : Argon2id + XChaCha20-Poly1305, verrouillage automatique, import CSV / Bitwarden / KeePassXC | Le plus abouti, 150+ tests unitaires |
+| [**FLX Archiver**](https://github.com/ChatCarbo/flx-archiver) | Archiveur ZIP, 7z, Zstd, Gzip (extraction RAR), qui recommande un format selon le contenu | Utilisable, peu de tests |
+| [**MemGuard**](https://github.com/ChatCarbo/Memguard) | Moniteur de RAM et allègement ciblé des processus en arrière-plan | Utilisable, sans tests |
+| [**Razdisk**](https://github.com/ChatCarbo/Razdisk) | Formateur de clés USB et cartes SD (diskpart + format), FAT32 sans limite de taille | En cours de correction, à utiliser avec prudence |
+| [**RGPD Cleaner**](https://github.com/ChatCarbo/rgpd-cleaner) | Retrouve les comptes liés à une adresse e-mail et prépare les demandes d'effacement (article 17 du RGPD) | Prototype |
+
+#### Ma méthode
+
+1. **Cadrage** : partir d'un besoin réel et le traduire en spécification.
+2. **Développement assisté** : faire produire le code par l'IA, le relire, imposer les choix d'architecture et de sécurité.
+3. **Recette** : tester moi-même sous Windows, y compris les cas limites.
+4. **Livraison** : corriger, documenter (README, CHANGES) et publier une version.
+
+**Prochaines étapes :** intégration continue (fmt, clippy, tests) sur tous les dépôts, plus de tests automatisés, et des spécifications publiées dans chaque projet.
+
+**Outils :** Rust (egui, iced), Python, Git, PowerShell, Notepad++, Windows.
 
 ---
 
-### **Responsable d'Études | Gestion de projets & Prototypage pilotés par l'IA**
+<details>
+<summary><b>English</b></summary>
 
-Exerçant en tant que **Responsable d'Études** dans le secteur industriel, je pilote régulièrement des projets en parallèle de mes missions principales. Doté d'une formation autodidacte en informatique, j'utilise l'**Intelligence Artificielle** aussi bien dans mon cadre professionnel pour optimiser et développer des outils dédiés à la recherche de pannes et aux investigations techniques qu'à titre personnel, comme levier d'exécution pour appliquer une méthodologie rigoureuse de gestion de projet à la création logicielle.
+### Study Manager · AI-driven Windows tools in Rust & Python
 
-Mon objectif : **concevoir, spécifier, tester et livrer quelques utilitaires fonctionnels par mois** en **Rust** et **Python** (utilitaires système, gestionnaires d'archives, scripts d'automatisation), afin de démontrer ma capacité à conduire un projet technique de l'idée initiale jusqu'à sa mise en production.
+I work in industry on technical studies and troubleshooting, and I am self-taught in computer science. On this account I publish Windows utilities that I design and test myself; **the code is written by AI models under my direction**.
 
-#### **Méthodologie de gestion de projet (Cycle complet)**
-Chaque dépôt publié sur ce compte repose sur un processus structuré et itératif :
-1. **Cadrage & Spécifications fonctionnelles :** Traduction d'un besoin opérationnel ou quotidien en un cahier des charges technique précis et structuré.
-2. **Architecture & Pilotage de l'IA :** Supervision des modèles d'IA pour produire un code modulaire — associant la performance et la rigueur de **Rust** à la souplesse de **Python** pour l'analyse de logs et l'outillage de diagnostic.
-3. **Recette & Phase de tests :** Réalisation personnelle des tests en conditions réelles sous Windows, vérification des cas limites et analyse des logs d'exécution.
-4. **Résolution d'anomalies & Livraison :** Diagnostic des dysfonctionnements, pilotage des corrections via l'IA et publication d'une version documentée sur GitHub.
+My role on each project: define the need, write the specification, review and steer the generated code, test on Windows, then fix and release.
 
-#### **Périmètre technique & Environnement**
-* **Langages principaux :** Rust (Cargo), Python
-* **Environnement de travail :** Approche minimaliste et maîtrise directe sous Windows (Notepad++, PowerShell, Git)
-* **Domaines d'application :** Outils de recherche de pannes et d'investigation technique, utilitaires système Windows, traitement d'archives et de fichiers, optimisation mémoire, analyse de logs et automatisation...
+- **[Kip](https://github.com/ChatCarbo/Kip)**: local password manager (Argon2id + XChaCha20-Poly1305), my most mature project, 150+ unit tests.
+- **[FLX Archiver](https://github.com/ChatCarbo/flx-archiver)**: ZIP / 7z / Zstd / Gzip archiver with format recommendation.
+- **[MemGuard](https://github.com/ChatCarbo/Memguard)**: RAM monitor with targeted background-process trimming.
+- **[Razdisk](https://github.com/ChatCarbo/Razdisk)**: USB / SD card formatter (being fixed, use with care).
+- **[RGPD Cleaner](https://github.com/ChatCarbo/rgpd-cleaner)**: finds accounts linked to an email and drafts GDPR erasure requests (prototype).
+
+**Next:** CI on every repo, more automated tests, published specs.
+
+</details>
