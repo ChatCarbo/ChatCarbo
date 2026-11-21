@@ -8,6 +8,7 @@ Mon rôle sur chaque projet : définir le besoin, écrire la spécification, rel
 
 | Projet | Ce qu'il fait | Statut |
 |---|---|---|
+| [**PlotFlora**](https://github.com/ChatCarbo/plotflora) 🆕 | Planification de jardin sur vue aérienne IGN ou plan dessiné : massifs, haies, plantes isolées, et un algorithme explicable qui classe les plantes adaptées sur 100 points | v1.1, spécification publiée, 30+ tests unitaires |
 | [**Kip**](https://github.com/ChatCarbo/Kip) | Gestionnaire de mots de passe local : Argon2id + XChaCha20-Poly1305, verrouillage automatique, import CSV / Bitwarden / KeePassXC | Le plus abouti, 150+ tests unitaires |
 | [**FLX Archiver**](https://github.com/ChatCarbo/flx-archiver) | Archiveur ZIP, 7z, Zstd, Gzip (extraction RAR), qui recommande un format selon le contenu | Utilisable, peu de tests |
 | [**MemGuard**](https://github.com/ChatCarbo/Memguard) | Moniteur de RAM et allègement ciblé des processus en arrière-plan | Utilisable, sans tests |
@@ -21,7 +22,7 @@ Mon rôle sur chaque projet : définir le besoin, écrire la spécification, rel
 3. **Recette** : tester moi-même sous Windows, y compris les cas limites.
 4. **Livraison** : corriger, documenter (README, CHANGES) et publier une version.
 
-**Prochaines étapes :** intégration continue (fmt, clippy, tests) sur tous les dépôts, plus de tests automatisés, et des spécifications publiées dans chaque projet.
+**Prochaines étapes :** intégration continue (fmt, clippy, tests) sur tous les dépôts, plus de tests automatisés, et une spécification publiée dans chaque projet, comme pour PlotFlora.
 
 **Outils :** Rust (egui, iced), Python, Git, PowerShell, Notepad++, Windows.
 
@@ -36,6 +37,7 @@ I work in industry on technical studies and troubleshooting, and I am self-taugh
 
 My role on each project: define the need, write the specification, review and steer the generated code, test on Windows, then fix and release.
 
+- **[PlotFlora](https://github.com/ChatCarbo/plotflora)** (new, v1.1): garden planner on IGN aerial imagery or a drawn plan, with an explainable 100-point plant suitability score; specification published.
 - **[Kip](https://github.com/ChatCarbo/Kip)**: local password manager (Argon2id + XChaCha20-Poly1305), my most mature project, 150+ unit tests.
 - **[FLX Archiver](https://github.com/ChatCarbo/flx-archiver)**: ZIP / 7z / Zstd / Gzip archiver with format recommendation.
 - **[MemGuard](https://github.com/ChatCarbo/Memguard)**: RAM monitor with targeted background-process trimming.
