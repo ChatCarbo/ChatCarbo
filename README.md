@@ -8,8 +8,8 @@ Mon rôle sur chaque projet : définir le besoin, écrire la spécification, rel
 
 | Projet | Ce qu'il fait | Statut |
 |---|---|---|
-| [**Escarcelle**](https://github.com/ChatCarbo/Escarcelle) 🆕 | Suivi local de l'épargne : livrets réglementés (intérêts par quinzaine, meilleur moment pour verser ou retirer) et PEA (cours automatiques, plus-values, analyse technique) | v0.1 en test, spécification publiée, 80+ tests unitaires |
-| [**PlotFlora**](https://github.com/ChatCarbo/plotflora) | Planification de jardin sur vue aérienne IGN ou plan dessiné : massifs, haies, plantes isolées, et un algorithme explicable qui classe les plantes adaptées sur 100 points | v1.1, spécification publiée, 30+ tests unitaires |
+| [**Escarcelle**](https://github.com/ChatCarbo/Escarcelle) 🆕 | Suivi local de l'épargne : livrets réglementés (intérêts par quinzaine, meilleur moment pour verser ou retirer), PEA et compte-titres multidevise (cours automatiques, plus-values, dividendes nets, alertes, analyse technique) | v0.2 en test, spécification publiée, 100+ tests unitaires |
+| [**PlotFlora**](https://github.com/ChatCarbo/plotflora) | Planification de jardin sur vue aérienne IGN ou plan dessiné : massifs, haies, plantes isolées, et un algorithme explicable qui classe les plantes adaptées sur 100 points et calcule les quantités | v1.2 (détection du contour du jardin, ambiances, mode d'emploi), spécification publiée, 35+ tests unitaires |
 | [**Kip**](https://github.com/ChatCarbo/Kip) | Gestionnaire de mots de passe local : Argon2id + XChaCha20-Poly1305, verrouillage automatique, import CSV / Bitwarden / KeePassXC | Le plus abouti, 150+ tests unitaires |
 
 #### Ma méthode
@@ -34,8 +34,8 @@ I work in industry on technical studies and troubleshooting, and I am self-taugh
 
 My role on each project: define the need, write the specification, review and steer the generated code, test on Windows, then fix and release.
 
-- **[Escarcelle](https://github.com/ChatCarbo/Escarcelle)** (new, v0.1 in testing): local savings tracker for French regulated savings accounts and PEA, with automatic quotes and technical analysis; specification published.
-- **[PlotFlora](https://github.com/ChatCarbo/plotflora)** (v1.1): garden planner on IGN aerial imagery or a drawn plan, with an explainable 100-point plant suitability score; specification published.
+- **[Escarcelle](https://github.com/ChatCarbo/Escarcelle)** (new, v0.2 in testing): local savings tracker for French regulated savings accounts, PEA and multi-currency brokerage account, with automatic quotes, net dividends, alerts and technical analysis; specification published.
+- **[PlotFlora](https://github.com/ChatCarbo/plotflora)** (v1.2): garden planner on IGN aerial imagery or a drawn plan, with an explainable 100-point plant suitability score; specification published.
 - **[Kip](https://github.com/ChatCarbo/Kip)**: local password manager (Argon2id + XChaCha20-Poly1305), my most mature project, 150+ unit tests.
 
 **Next:** CI on every repo, more automated tests, published specs.
