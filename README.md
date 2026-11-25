@@ -8,7 +8,7 @@ Mon rôle sur chaque projet : définir le besoin, écrire la spécification, rel
 
 | Projet | Ce qu'il fait | Statut |
 |---|---|---|
-| [**Escarcelle**](https://github.com/ChatCarbo/Escarcelle) 🆕 | Suivi local de l'épargne : livrets réglementés (intérêts par quinzaine, meilleur moment pour verser ou retirer), PEA et compte-titres multidevise (cours automatiques, plus-values, dividendes nets, alertes, analyse technique) | v0.2 en test, spécification publiée, 100+ tests unitaires |
+| [**Escarcelle**](https://github.com/ChatCarbo/Escarcelle) 🆕 | Suivi local de l'épargne : livrets réglementés (intérêts par quinzaine, meilleur moment pour verser ou retirer) et PEA (cours automatiques, plus-values, dividendes nets, alertes, analyse technique) | v0.3 (version de stabilisation), spécification publiée, 80+ tests, intégration continue |
 | [**PlotFlora**](https://github.com/ChatCarbo/plotflora) | Planification de jardin sur vue aérienne IGN ou plan dessiné : massifs, haies, plantes isolées, et un algorithme explicable qui classe les plantes adaptées sur 100 points et calcule les quantités | v1.2 (détection du contour du jardin, ambiances, mode d'emploi), spécification publiée, 35+ tests unitaires |
 | [**Kip**](https://github.com/ChatCarbo/Kip) | Gestionnaire de mots de passe local : Argon2id + XChaCha20-Poly1305, verrouillage automatique, import CSV / Bitwarden / KeePassXC | Le plus abouti, 150+ tests unitaires |
 
@@ -19,7 +19,7 @@ Mon rôle sur chaque projet : définir le besoin, écrire la spécification, rel
 3. **Recette** : tester moi-même sous Windows, y compris les cas limites.
 4. **Livraison** : corriger, documenter (README, CHANGES) et publier une version.
 
-**Prochaines étapes :** intégration continue (fmt, clippy, tests) sur tous les dépôts, plus de tests automatisés, et une spécification publiée dans chaque projet, comme pour PlotFlora et Escarcelle.
+**Prochaines étapes :** étendre l'intégration continue (fmt, clippy, tests), déjà en place sur Escarcelle, à tous les dépôts, et vérifier les calculs d'Escarcelle sur de vrais relevés.
 
 **Outils :** Rust (egui, iced, Tauri), Svelte, SQLite, Python, Git, PowerShell, Notepad++, Windows.
 
@@ -34,10 +34,10 @@ I work in industry on technical studies and troubleshooting, and I am self-taugh
 
 My role on each project: define the need, write the specification, review and steer the generated code, test on Windows, then fix and release.
 
-- **[Escarcelle](https://github.com/ChatCarbo/Escarcelle)** (new, v0.2 in testing): local savings tracker for French regulated savings accounts, PEA and multi-currency brokerage account, with automatic quotes, net dividends, alerts and technical analysis; specification published.
+- **[Escarcelle](https://github.com/ChatCarbo/Escarcelle)** (new, v0.3 stabilization release): local savings tracker for French regulated savings accounts and PEA, with automatic quotes, net dividends, alerts and technical analysis; specification published, continuous integration.
 - **[PlotFlora](https://github.com/ChatCarbo/plotflora)** (v1.2): garden planner on IGN aerial imagery or a drawn plan, with an explainable 100-point plant suitability score; specification published.
 - **[Kip](https://github.com/ChatCarbo/Kip)**: local password manager (Argon2id + XChaCha20-Poly1305), my most mature project, 150+ unit tests.
 
-**Next:** CI on every repo, more automated tests, published specs.
+**Next:** extend CI (already on Escarcelle) to every repo, and check Escarcelle's figures against real bank statements.
 
 </details>
